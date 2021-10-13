@@ -15,7 +15,7 @@ async function seed () {
         useUnifiedTopology: true,
     });
 
-    const db = client.db("authProjectApp");
+    const db = client.db("ProjectApp");
     await db.collection("users").deleteMany();
 
     /*
